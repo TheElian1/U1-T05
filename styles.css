@@ -1,0 +1,25 @@
+nav {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;     
+              background-color: gray;       
+        }
+        a {
+            float: left ;
+        }
+        nav a{
+            display: block;
+            padding: 15px;
+            color: black;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover{ 
+            background-color: honeydew;
+            font-size: 30px;
+            transition: all 0.5s ease;
+            font-size-adjust: 20px;
+        }
+    
